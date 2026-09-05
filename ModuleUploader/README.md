@@ -73,3 +73,12 @@ activated. This tool doesn't change that trust model, it just moves the
 "copy files onto the server" step into the browser. Treat `/modules/upload`
 as sensitive as SSH/SFTP access, and only give the `admin` role to people
 you'd hand server access to. Only upload modules from sources you trust.
+
+## Disclaimer
+
+This is an independent, community-built module. It is **not affiliated
+with, endorsed by, or supported by FreeScout or freescout.net** — don't
+file bugs about it with their support. It's meant for installing modules
+**you wrote yourself or otherwise have the right to distribute**; it's a
+generic zip-upload utility and doesn't bypass licensing on anyone's
+commercial modules.

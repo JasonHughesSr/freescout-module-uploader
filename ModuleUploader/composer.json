@@ -1,0 +1,23 @@
+{
+    "name": "freescout/moduleuploader",
+    "description": "Upload custom FreeScout modules from the admin UI.",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ModuleUploader\\Providers\\ModuleUploaderServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ModuleUploader\\": ""
+        }
+    }
+}

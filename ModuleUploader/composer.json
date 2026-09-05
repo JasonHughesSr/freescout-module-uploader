@@ -1,10 +1,10 @@
 {
-    "name": "freescout/moduleuploader",
-    "description": "Upload custom FreeScout modules from the admin UI.",
+    "name": "jasonhughessr/moduleuploader",
+    "description": "Unofficial, community-built module that adds an 'Upload Module' page to a FreeScout admin UI. Not affiliated with or endorsed by FreeScout.",
     "authors": [
         {
-            "name": "FreeScout",
-            "email": "support@freescout.net"
+            "name": "JasonHughesSr",
+            "homepage": "https://github.com/JasonHughesSr"
         }
     ],
     "extra": {

@@ -35,7 +35,7 @@
         @endif
 
         <form method="POST" action="{{ route('moduleuploader.upload') }}" enctype="multipart/form-data">
-            @csrf
+            {{ csrf_field() }}
             <div class="form-group">
                 <input type="file" name="module_zip" accept=".zip" required>
             </div>

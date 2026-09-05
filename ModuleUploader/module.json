@@ -1,0 +1,22 @@
+{
+    "name": "ModuleUploader",
+    "alias": "moduleuploader",
+    "description": "Adds an 'Upload Module' page to Manage > Modules, letting an administrator install a custom/third-party module by uploading its .zip file instead of copying it onto the server manually.",
+    "version": "1.0.0",
+    "detailsUrl": "",
+    "author": "",
+    "authorUrl": "",
+    "requiredAppVersion": "1.0.0",
+    "license": "AGPL-3.0",
+    "keywords": ["modules", "upload", "admin"],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ModuleUploader\\Providers\\ModuleUploaderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -3,6 +3,7 @@
     "alias": "moduleuploader",
     "description": "Adds an 'Upload Module' page to Manage > Modules, letting an administrator install a custom/third-party module by uploading its .zip file instead of copying it onto the server manually.",
     "version": "1.0.0",
+    "img": "/modules/moduleuploader/img/icon.png",
     "detailsUrl": "",
     "author": "",
     "authorUrl": "",

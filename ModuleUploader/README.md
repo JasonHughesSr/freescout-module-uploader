@@ -50,6 +50,13 @@ If the sidebar link doesn't show up right after activating, try
 `php artisan freescout:clear-cache` on the server) — that's FreeScout's
 usual fix for stale module caches.
 
+The module's icon on the Manage > Modules page comes from
+`Public/img/icon.png`, referenced via the `img` field in `module.json`. If
+it doesn't appear (falls back to the generic puzzle-piece placeholder),
+your FreeScout install may need its module assets published/symlinked —
+try `php artisan module:publish ModuleUploader` on the server, or check
+how `public/modules/` is set up for your other installed modules.
+
 ## How the sidebar link is added
 
 Core's `resources/views/modules/sidebar_menu.blade.php` has no filter/hook
